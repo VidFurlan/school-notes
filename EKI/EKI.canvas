@@ -1,16 +1,22 @@
 {
 	"nodes":[
 		{"type":"text","text":"## Zaporedna V.","id":"408f4b4598ae366e","x":-495,"y":-20,"width":240,"height":60,"color":"1"},
-		{"type":"text","text":"## Vzporedna V.","id":"fd4d70dd8eb3ebd5","x":-120,"y":-20,"width":240,"height":60,"color":"1"},
-		{"type":"text","text":"*I = I<sub>1</sub> = I<sub>2</sub>* -> Tok ostane enak\n*U = U<sub>1</sub> + U<sub>2</sub>* -> Tok pada\n*R<sub>N</sub> = R<sub>1</sub> + R<sub>1</sub>* -> Upornost se sesteva","id":"a4c690b915d47ff6","x":-537,"y":120,"width":325,"height":140,"color":"5"},
-		{"type":"text","text":"*I = I<sub>1</sub> + I<sub>2</sub>* -> Tok ostane enak\n*U<sub>1</sub>  = I<sub>1</sub>R<sub>1</sub>* -> Tok pada\n*R<sub>N</sub> = R<sub>1</sub>R<sub>2</sub>R<sub>3</sub> / ((R<sub>2</sub>R<sub>3</sub>) + (R<sub>1</sub>R<sub>3</sub>) + (R<sub>1</sub>R<sub>2</sub>)* ) \n-> Upornost se sesteva","id":"fa92bc0bc13ef24a","x":-170,"y":120,"width":340,"height":140,"color":"5"},
-		{"type":"text","text":"## Sestavljeno V.","id":"202504de12a111da","x":-310,"y":420,"width":241,"height":59,"color":"1"},
-		{"type":"text","text":"# Vezave","id":"77d22f3e88f22955","x":-287,"y":-240,"width":195,"height":60,"color":"1"},
-		{"type":"text","text":"Kombinacija zaporenih in vzporednih vezav.","id":"3301c02669c0532d","x":-315,"y":500,"width":250,"height":80},
-		{"type":"text","text":"## Napetostni Delilnik","id":"44d6ad6afdd4a428","x":-920,"y":40,"width":289,"height":60,"color":"1"},
-		{"type":"text","text":"Na principu padca napetosti pri **zaporedni vezavi** lahko iz vezja dobimo razlicne napetosti.","id":"eccbab8687c5139d","x":-910,"y":150,"width":269,"height":130},
-		{"type":"file","file":"School/EKI/Img/NapDel.png","id":"7ddfd48bdf065deb","x":-1442,"y":40,"width":427,"height":240},
-		{"id":"a39fd8be8086e51b","x":-1120,"y":419,"width":220,"height":121,"color":"5","type":"text","text":"#### *U<sub>1</sub> =  R<sub>1</sub>I* -> Tok U1\n#### *U<sub>2</sub> =  R<sub>2</sub>I* -> Tok U1\n"}
+		{"type":"text","text":"#### *I = I<sub>1</sub> = I<sub>2</sub>* -> Tok ostane enak\n#### *U = U<sub>1</sub> + U<sub>2</sub>* -> Tok pada\n#### *R<sub>N</sub> = R<sub>1</sub> + R<sub>1</sub>* -> Upornost se sesteva","id":"a4c690b915d47ff6","x":-537,"y":120,"width":325,"height":280,"color":"5"},
+		{"type":"text","text":"#### *I = I<sub>1</sub> + I<sub>2</sub>* -> Tok ostane enak\n#### *U<sub>1</sub>  = I<sub>1</sub>R<sub>1</sub>* -> Tok pada\n#### *R<sub>N</sub> = R<sub>1</sub>R<sub>2</sub>R<sub>3</sub> / ((R<sub>2</sub>R<sub>3</sub>) + (R<sub>1</sub>R<sub>3</sub>) + (R<sub>1</sub>R<sub>2</sub>)* ) -> Upornost se sesteva","id":"fa92bc0bc13ef24a","x":-170,"y":120,"width":370,"height":280,"color":"5"},
+		{"type":"text","text":"## Vzporedna V.","id":"fd4d70dd8eb3ebd5","x":-105,"y":-20,"width":240,"height":60,"color":"1"},
+		{"type":"text","text":"## Napetostni Delilnik","id":"44d6ad6afdd4a428","x":-945,"y":40,"width":340,"height":60,"color":"1"},
+		{"type":"text","text":"# Vezave","id":"77d22f3e88f22955","x":-292,"y":-240,"width":204,"height":80,"color":"1"},
+		{"type":"text","text":"#### *U<sub>1</sub> =  R<sub>1</sub>I* -> Tok U1\n#### *U<sub>1</sub> = U<sub>G</sub>R<sub>1</sub>/(R<sub>N</sub>)*\n","id":"a39fd8be8086e51b","x":-915,"y":420,"width":280,"height":120,"color":"5"},
+		{"type":"text","text":"Na principu padca napetosti pri **zaporedni vezavi** lahko iz vezja dobimo razlicne napetosti.\n[Video - Kako racunamo](https://www.go-tel.si/instrukcije/napetostni-delilnik)","id":"eccbab8687c5139d","x":-920,"y":160,"width":290,"height":190},
+		{"type":"file","file":"EKI/Img/NapDel.png","id":"0a6e9fd85079693b","x":-1520,"y":208,"width":400,"height":225,"color":"5"},
+		{"type":"text","text":"Kombinacija zaporenih in vzporednih vezav.","id":"3301c02669c0532d","x":-315,"y":591,"width":250,"height":80},
+		{"type":"text","text":"## Sestavljeno V.","id":"202504de12a111da","x":-310,"y":511,"width":241,"height":59,"color":"1"},
+		{"type":"file","file":"EKI/Img/Diode.png","id":"4a5f3d169a996cd3","x":-1520,"y":-410,"width":400,"height":225,"color":"5"},
+		{"type":"text","text":"\tA B Y\n\t0 0 0\n\t0 1 1\n\t1 0 1\n\t1 1 1","id":"0192f0dcaabcb928","x":-1520,"y":-60,"width":160,"height":220},
+		{"type":"text","text":"## Logicna Vrata","id":"31259938fc52678d","x":-1445,"y":-520,"width":250,"height":60,"color":"1"},
+		{"type":"text","text":"\n\tA B Y\n\t0 0 0\n\t0 1 0\n\t1 0 0\n\t1 1 1","id":"e186d584ea373db6","x":-1280,"y":-60,"width":160,"height":220},
+		{"type":"text","text":"## Diode","id":"603a0675545a7698","x":-890,"y":-580,"width":140,"height":60,"color":"1"},
+		{"type":"text","text":"##### Tok tece v eno smer:\n*' -'  -->|-- '+' * zaporna smer\n*'+' -->|-- '-'  *prevodna smer","id":"199f0c76deae1166","x":-960,"y":-460,"width":280,"height":163,"color":"5"}
 	],
 	"edges":[
 		{"id":"63d4bdf98f482333","fromNode":"77d22f3e88f22955","fromSide":"bottom","toNode":"408f4b4598ae366e","toSide":"top"},
@@ -22,8 +28,13 @@
 		{"id":"0c1814a09517c487","fromNode":"408f4b4598ae366e","fromSide":"left","toNode":"44d6ad6afdd4a428","toSide":"right"},
 		{"id":"6cea22014d194215","fromNode":"44d6ad6afdd4a428","fromSide":"bottom","toNode":"eccbab8687c5139d","toSide":"top"},
 		{"id":"6d6c3415aee1ee33","fromNode":"202504de12a111da","fromSide":"bottom","toNode":"3301c02669c0532d","toSide":"top"},
-		{"id":"90de65c75acbeaac","fromNode":"44d6ad6afdd4a428","fromSide":"left","toNode":"7ddfd48bdf065deb","toSide":"right"},
-		{"id":"985851f825d7a8df","fromNode":"7ddfd48bdf065deb","fromSide":"bottom","toNode":"a39fd8be8086e51b","toSide":"top"},
-		{"id":"98c3d4ebb631ce51","fromNode":"eccbab8687c5139d","fromSide":"bottom","toNode":"a39fd8be8086e51b","toSide":"top"}
+		{"id":"98c3d4ebb631ce51","fromNode":"eccbab8687c5139d","fromSide":"bottom","toNode":"a39fd8be8086e51b","toSide":"top"},
+		{"id":"0e99673ecb0074a8","fromNode":"44d6ad6afdd4a428","fromSide":"left","toNode":"0a6e9fd85079693b","toSide":"right"},
+		{"id":"f09cb905ef812d39","fromNode":"603a0675545a7698","fromSide":"bottom","toNode":"199f0c76deae1166","toSide":"top"},
+		{"id":"c8859bf0b61c680a","fromNode":"603a0675545a7698","fromSide":"left","toNode":"31259938fc52678d","toSide":"right"},
+		{"id":"51258c1a5f087bb3","fromNode":"31259938fc52678d","fromSide":"bottom","toNode":"4a5f3d169a996cd3","toSide":"top"},
+		{"id":"f399fb12faaf1f48","fromNode":"a39fd8be8086e51b","fromSide":"left","toNode":"0a6e9fd85079693b","toSide":"right"},
+		{"id":"9e81b70fa982a02b","fromNode":"4a5f3d169a996cd3","fromSide":"bottom","toNode":"0192f0dcaabcb928","toSide":"top","label":"OR"},
+		{"id":"90e9ae5021d9123d","fromNode":"4a5f3d169a996cd3","fromSide":"bottom","toNode":"e186d584ea373db6","toSide":"top","label":"AND"}
 	]
 }

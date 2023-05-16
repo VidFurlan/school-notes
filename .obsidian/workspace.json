@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "93eb546c31efd38f",
+    "type": "split",
+    "children": [
+      {
+        "id": "593eb2fa11797466",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aedd305fd67d4b71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANG/The Harmful Side Effect of Cleaning Up the Ocean.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c90903fe3de888fe",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SLO/Untitled.canvas",
+                "viewState": {
+                  "x": 48,
+                  "y": 25,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ad327ea23980662",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb26a36754cce1ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf703654184ddcc7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c31193ae86a38514",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "259cd5b737cdcd0b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "daa1f54810e34cb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "65fb35d7528b2792",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98b95c2d34326fa2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SLO/Untitled.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7873b362042d6dcd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SLO/Untitled.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9498e08c52492469",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eab84276d1929acd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SLO/Untitled.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c90903fe3de888fe",
+  "lastOpenFiles": [
+    "SLO/Untitled.md",
+    "SLO/Untitled.canvas",
+    "ANG/The Harmful Side Effect of Cleaning Up the Ocean.md",
+    "SLO",
+    "ANG/Anglescina.canvas",
+    "EKI/EKI.canvas",
+    "EKI/Img/Diode.png",
+    "EKI/Img/NapDel.png"
+  ]
+}
