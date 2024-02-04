@@ -1,55 +1,59 @@
 {
   "main": {
-    "id": "93eb546c31efd38f",
+    "id": "95a0eff8da22f934",
     "type": "split",
     "children": [
       {
-        "id": "593eb2fa11797466",
+        "id": "12b55d0f7a9bf99f",
         "type": "tabs",
         "children": [
           {
-            "id": "aedd305fd67d4b71",
+            "id": "3edec4a74d208f1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANG/The Harmful Side Effect of Cleaning Up the Ocean.md",
+                "file": "Kem/Baterije.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
+            },
+            "group": "a293ed1569814eda"
+          }
+        ]
+      },
+      {
+        "id": "3df07ff1204e40f0",
+        "type": "tabs",
+        "children": [
           {
-            "id": "c90903fe3de888fe",
+            "id": "8969d88a76ab7bf7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SLO/Untitled.canvas",
-                "viewState": {
-                  "x": 48,
-                  "y": 25,
-                  "zoom": 0
-                }
+                "file": "Kem/Baterije.md",
+                "mode": "source",
+                "source": false
               }
-            }
+            },
+            "group": "a293ed1569814eda"
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1ad327ea23980662",
+    "id": "bb76075e4c76965a",
     "type": "split",
     "children": [
       {
-        "id": "fb26a36754cce1ac",
+        "id": "c7d65eeb50e5df4c",
         "type": "tabs",
         "children": [
           {
-            "id": "cf703654184ddcc7",
+            "id": "017742bd209151cd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,7 +63,7 @@
             }
           },
           {
-            "id": "c31193ae86a38514",
+            "id": "77b3955b99ecd45f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -74,7 +78,7 @@
             }
           },
           {
-            "id": "259cd5b737cdcd0b",
+            "id": "bc364d109627d91d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,20 +92,20 @@
     "width": 300
   },
   "right": {
-    "id": "daa1f54810e34cb2",
+    "id": "e91241021848cc46",
     "type": "split",
     "children": [
       {
-        "id": "65fb35d7528b2792",
+        "id": "39236b74d5c22507",
         "type": "tabs",
         "children": [
           {
-            "id": "98b95c2d34326fa2",
+            "id": "0f19d8acfb3d60d8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SLO/Untitled.canvas",
+                "file": "Kem/Baterije.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,19 +117,19 @@
             }
           },
           {
-            "id": "7873b362042d6dcd",
+            "id": "765a31a77a22da96",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SLO/Untitled.canvas",
+                "file": "Kem/Baterije.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9498e08c52492469",
+            "id": "8bf9dcd20a0fce25",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,12 +140,12 @@
             }
           },
           {
-            "id": "eab84276d1929acd",
+            "id": "a6e34b28c46cd844",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "SLO/Untitled.canvas"
+                "file": "Kem/Baterije.md"
               }
             }
           }
@@ -162,15 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c90903fe3de888fe",
+  "active": "3edec4a74d208f1d",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Kem/Baterije.md",
+    "README.md",
+    "Kem",
     "SLO/Untitled.md",
-    "SLO/Untitled.canvas",
-    "ANG/The Harmful Side Effect of Cleaning Up the Ocean.md",
-    "SLO",
-    "ANG/Anglescina.canvas",
-    "EKI/EKI.canvas",
-    "EKI/Img/Diode.png",
-    "EKI/Img/NapDel.png"
+    "Welcome.md"
   ]
 }
