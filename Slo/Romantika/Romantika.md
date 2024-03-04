@@ -1,2 +1,3 @@
-[[Evropska romantika]]
-[[Slovenska romantika]]
+Za lastnosti glej:
+- [[Evropska romantika]]
+- [[Slovenska romantika]]

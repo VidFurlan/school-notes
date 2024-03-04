@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e09df02930b25f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Protireformacija in Barok/Protireformacija.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Romantika/France Prešeren/Sonetni venec.md",
+                "file": "Protireformacija in Barok/Protireformacija.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Romantika/France Prešeren/Sonetni venec.md",
+                "file": "Protireformacija in Barok/Protireformacija.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Romantika/France Prešeren/Sonetni venec.md"
+                "file": "Protireformacija in Barok/Protireformacija.md"
               }
             }
           }
@@ -159,27 +171,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ad5ea56234aab28",
+  "active": "5e09df02930b25f8",
   "lastOpenFiles": [
-    "Romantika/France Prešeren/Zdravljica.md",
-    "Romantika/Romantika.md",
-    "Romantika/Slovenska romantika.md",
+    "Protireformacija in Barok/Na novega leta dan.md",
+    "Protireformacija in Barok/Barok.md",
+    "Ljudsko slovstvo/Ljudsko slovstvo.md",
+    "Ljudsko slovstvo/Lepa Vida.md",
+    "Domača branja/Umor na Orient ekspresu.md",
     "Romantika/France Prešeren/France Prešeren.md",
-    "Romantika/Evropska romantika/Evropska romantika.md",
+    "Romantika/France Prešeren/Krst pri Savici.md",
+    "Romantika/France Prešeren/Sonetni venec.md",
+    "Romantika/France Prešeren/Zdravljica.md",
+    "Romantika/Slovenska romantika.md",
+    "Romantika/Romantika.md",
     "Romantika/Evropska romantika/Trpljenje mladega Wertherja.md",
     "Romantika/Evropska romantika/Jevgenij Onjegin.md",
+    "Romantika/Evropska romantika/Evropska romantika.md",
     "Razsvetljenstvo/Dramilo.md",
     "Pasted image 20240303235438.png",
     "Razsvetljenstvo/Razsvetljenstvo.md",
     "Razsvetljenstvo/Ta veseli dan ali Matiček se ženi.md",
     "Protireformacija in Barok/Protireformacija.md",
-    "Protireformacija in Barok/Barok.md",
-    "Protireformacija in Barok/Na novega leta dan.md",
-    "Romantika/France Prešeren/Sonetni venec.md",
-    "Domača branja/Umor na Orient ekspresu.md",
-    "Ljudsko slovstvo/Ljudsko slovstvo.md",
-    "Ljudsko slovstvo/Lepa Vida.md",
-    "Romantika/France Prešeren/Krst pri Savici.md",
     "Untitled.canvas",
     "2024-03-03.md",
     "Domača branja",
