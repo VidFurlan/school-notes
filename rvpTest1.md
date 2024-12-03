@@ -4,8 +4,10 @@
 > 1. Kako določimo, da bo digitalni I/O pin na krmilniku Arduino deloval kot vhod? (Arduino
 > funkcija, direktno naslavljanje registra).
 
+> ```cpp
 > pinMode(pin, INPUT); // Arduino funkcija
 > DDRx &= ~(1 << pin); // Register
+> ```
 
 ---
 
@@ -53,8 +55,10 @@
 > [!NOTE]
 > 5. Določi digitalni I/O pin kot PULLUP vhod in pri tem uporabi direktno naslavljanje registra.
 
+> ```cpp
 > DDRx &= ~(1 << pin); // INPUT
 > PORTx |= (1 << pin); // PULLUP
+> ```
 
 ---
 
@@ -62,9 +66,11 @@
 > 6. Ali ima mikrokrmilnik Arduino vgrajen upor za PULLUP povezavo in s katerim ukazom to
 > vezavo aktiviramo?
 
+> ```cpp
 > pinMode(pin, INPUT_PULLUP); // Arduino funkcija
 > DDRx &= ~(1 << pin); // INPUT
 > PORTx |= (1 << pin); // PULLUP
+> ```
 
 ---
 
