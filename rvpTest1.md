@@ -68,7 +68,7 @@
 
 ---
 
-> [!NOTE]
+> [!WARNING]
 > 7. Nariši električno shemo svetleče diode, priključene v pozitivni logiki na PB4 in napiši program
 > tako, da bo dioda svetila.
 
@@ -81,30 +81,26 @@
 > ```cpp
 > void setup() {
 >     DDRB |= (1 << 4);  // OUTPUT
-> }
-> void loop() {
->     PORTB ^= (1 << 4); // TOGGLE LOW/HIGH
+>     PORTB |= (1 << 4); // Set OUTPUT to HIGH
 > }
 > ```
 
 ---
 
-> [!NOTE]
+> [!WARNING]
 > 8. Nariši električno shemo svetleče diode, priključene v negativni logiki na PB2 in napiši
 > program tako, da bo dioda svetila.
 
 > **Diagram:**
 > ```
-> +5V --- 220R ---|>|--- PIN-12
+> +5V --- 220R ---|>|--- PIN-10
 > ```
 >
 > **Koda:**
 > ```cpp
 > void setup() {
->     DDRB &= ~(1 << 4); // INPUT
-> }
-> void loop() {
->     PORTB ^= (1 << 4); // TOGGLE PULLUP
+>     DDRB |= (1 << 2);
+>     PORTB &= ~(1 << 2);
 > }
 > ```
 
