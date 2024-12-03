@@ -291,7 +291,7 @@
 > 24. Razloži delovanje časovnika/števca v fast PWM načinu.
 
 > V fast PWM nacinu casovnik deluje tako, da se vrednost na OCxA ali OCxB registru nastavi na 0
-> dokler TCNTx ne doseze vrednosti OCRx. Ko jo doseze se vrednost OCxA ali OCxB registra nastavi na 1,
+> dokler TCNTx ne doseze vrednosti OCRxA. Ko jo doseze se vrednost OCxA ali OCxB registra nastavi na 1,
 > dokler se na TCNTx ne zgodi overflow, ki ga ponovo nastavimo na 0.
 > [Source 1](https://www.electronicwings.com/avr-atmega/atmega1632-clear-timer-on-compare-match-ctc-mode)
 > [Source 2](https://stackoverflow.com/questions/26599618/avr-timer-programming-ctc-mode-vs-normal-mode)
