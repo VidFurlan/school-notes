@@ -162,8 +162,6 @@
 > [!NOTE]
 > 12. Nariši shemo za 4 tipke, priključene na analogni vhod.
 
-> Narisan je delilnik napetosti
->
 > **Diagram:**
 > ```
 > +5V -|- R -|- R -|- R -|- R -|- R -|- GND
