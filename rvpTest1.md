@@ -272,14 +272,14 @@
 > premajhno za naso casovno periodo, lahko uporabimo prescaler, ki ponuja upocasnitev stevca, 
 > tako da stevec upocasni za x1, x8, x64, x256, x1024. To nastavimo v TCCRxB registru.
 > Ce smo nastavili casovnik v compare match nacin, bomo trenutno vrednost TCNTx primerjali
-> z OCRx registrom, ki drzi zeljeno vrednost do katere stejemo. Ko jo dosezemo se sprozi interrupt.
+> z OCRxA registrom, ki drzi zeljeno vrednost do katere stejemo. Ko jo dosezemo se sprozi interrupt.
 
 ---
 
 > [!IMPORTANT]
 > 23. Razloži delovanje časovnika/števca v CTC načinu.
 
-> V CTC nacinu casovnik deluje kot v compare match nacinu, le da se po dosezeni vrednosti OCRx
+> V CTC nacinu casovnik deluje kot v compare match nacinu, le da se po dosezeni vrednosti OCRxA
 > ne sprozi interrupta, ampak se stevec TCNTx nastavi na 0. Prav tako se vrednost OCxA ali OCxB
 > registra (to je pin) nastavi na kar doloca TCCR register.
 > [Source 1](https://www.electronicwings.com/avr-atmega/atmega1632-clear-timer-on-compare-match-ctc-mode)
