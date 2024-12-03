@@ -193,7 +193,7 @@
 > [!NOTE]
 > 15. Razloži delovanje pomikalnega registra.
 
-> Pomikalni register je serijsko paralelni pretvornik. Ta serijsko prejema po 1 bit.
+> Pomikalni register je serijsko paralelni pretvornik. Ta serijsko prejema po 1 bit, ko na clock pinu zazna signal.
 > Najprej premakne trenutno shranjene bite za 1 mesto naprej, nato pa na prvo mesto shrani prejeti bit.
 > Funkcija shiftOut(dataPin, clockPin, bitOrder, value)
 
