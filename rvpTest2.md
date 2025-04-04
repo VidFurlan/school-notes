@@ -1,3 +1,27 @@
+# Vprašanja za prvo ocenjevalno obdobje
+
+> [!NOTE]
+> 1. Nariši 4 bitni R-2R DAC pretvornik in razloži delovanje.
+
+> DAC pretvarja digitalne signale v analogne.
+> Ta ima 4 upore priklopljene na vhode. Vhod A ima najmanjši vpliv na izhod,
+> vhod D pa ima največji vpliv (zaradi števila uporov).
+> 4 bitni DAC lahko predstavlja le 2<sup>4</sup> vrednosti saj ima le 4 vhode.
+> 
+>```
+> R - Upor
+> A-D - Vhodi
+>
+>    o-- R --o-- R --o-- R --o-- R --o---o OUT
+>    |       |       |       |       |
+>    R       R       R       R       R
+>    |       |       |       |       |
+>    o       A       B       C       D
+>   GND    (LSB)                   (MSB)
+>```
+
+---
+
 ![](https://cdn.discordapp.com/attachments/1221482994066264157/1357778077714747563/PXL_20250404_175931654.jpg?ex=67f170e0&is=67f01f60&hm=c77e157499468c9d0186c4fc86596c6521f7b8adab058fa5d9ab9fb8d8e8376a&)
 ![](https://cdn.discordapp.com/attachments/1221482994066264157/1357778076846522478/PXL_20250404_175937662.MP.jpg?ex=67f170df&is=67f01f5f&hm=d56fcdee8c5e84e9a65e1753a773050f23db1677efa35382e25e3cc4e2f7b1c6&)
 ![](https://cdn.discordapp.com/attachments/1221482994066264157/1357778075953139813/PXL_20250404_175942361.jpg?ex=67f170df&is=67f01f5f&hm=bbd33d763717722d98b954145d5702a56465f6dd2e11ea1c8e9da1e869471812&)
