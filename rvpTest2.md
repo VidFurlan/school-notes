@@ -4,7 +4,7 @@
 > 1. Nariši 4 bitni R-2R DAC pretvornik in razloži delovanje.
 
 > [!CAUTION]
-> Na slikah je narisan en upor prevec
+> Na sliki iz zvezka je narisan en upor prevec
 
 > DAC pretvarja digitalne signale v analogne.
 > Ta ima 4 upore priklopljene na vhode. Vhod A ima najmanjši vpliv na izhod,
