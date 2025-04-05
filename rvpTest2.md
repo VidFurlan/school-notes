@@ -12,9 +12,9 @@
 > R - Upor
 > A-D - Vhodi
 >
->    o-- R --o-- R --o-- R --o-- R --o---o OUT
+>    o-------o-- R --o-- R --o-- R --o---o OUT
 >    |       |       |       |       |
->    R       R       R       R       R
+>   2R      2R      2R      2R      2R
 >    |       |       |       |       |
 >    o       A       B       C       D
 >   GND    (LSB)                   (MSB)
@@ -105,6 +105,80 @@
 > U_{in} = I_{R1} * R_{1} \\
 > U_{out} = I_{R1} * R_{1} + I_{R1} * R_{f} = I_{R1} (R_{1}+R_{F}) \\
 > A = \frac{U_{out}}{U_{in}} = \frac{I_{R1} (R_{1}+R_{F})}{I_{R1} * R_{1}} = 1 + \frac{R_{f}}{R_{1}}
+> \end{gather}
+> ```
+
+---
+
+> [!NOTE]
+> 7. Primerjaj vhodno upornost operacijskega ojačevalnika z invertiranim in
+> ne-invertiranim vhodom.
+
+> Pri invertiranem vhodu je upornost enaka R1, pri ne-invertiranem pa nimamo upora v vhodni zanki, kar
+> pomeni da bo vhodna upornost bistveno večja.
+
+---
+
+> [!NOTE]
+> 8. Ali smemo operacijski ojačevalnik uporabljati brez negativne povratne vezave?
+
+> Načeloma ne, razen če ga uporabljamo kot komparator.
+
+---
+
+> [!NOTE]
+> 9. Nariši shemo invertiranega operacijskega ojačevalnika z enojnim napajanjem.
+> V čem je težava enojnega napajanja?
+
+> V primerjavi s simetričnim napajanjem, imamo tu problem z ojačanjem izmeničnih signalov.
+> Da problem odpravimo lahko uporabimo delilnik napetosti na + vhodu.
+> 
+> Shema:
+> 
+> ![](https://github.com/user-attachments/assets/07888de4-5984-4873-9b4b-638c79dcd6d3)
+
+---
+
+> [!NOTE]
+> 10. Kdaj je smiselno uporabiti operacijski ojačevalnik v t.i. »buffer« načinu (ojačanje = 1)?
+
+> *Za buffer način velja V<sub>in</sub> =  V<sub>out</sub>. Tako vezje nima ojačanja, posledično pa velja,
+> da je vhodni tok zanemarljiv, impedenca pa je zelo majhna.* To vezavo uporabimo npr. ko imamo senzor,
+> ki ne zagotavlja dovolj izhodnega toka. Z ojačevalnikom v tej situaciji reproduciramo vhodno napetost
+> hkrati pa zagotavljanmo dovolj toka.
+
+---
+
+> [!NOTE]
+> 11. Pri realnem operacijskim ojačevalniku je pasovna širina omejena z ojačenjem. Večje je
+> ojačanje, manjša bo pasovna širina in obratno. Pri kakšnem ojačenju je frekvenčna pasovna
+> širina maksimalna?
+
+> Maksimalna pasovna širina je pri ojačanju 1. (Idealni operacijski ojačevalnik ima neskončno pasovno širino.)
+
+---
+
+
+> [!NOTE]
+> 12. Imamo operacijski ojačevalec z negativno povratno zanko, ki določa ojačenje v vrednosti
+> A=100. Kakšna bo pasovna širina tega ojačevalca, če uporabimo podatke iz spodnje krivulje.
+> GBP=Ojačenje×Pasovna širina(Unity Gain).
+> ![](https://github.com/user-attachments/assets/5edd78f9-e78d-4ed8-85ac-9bf0bd16ed65)
+
+> [!IMPORTANT]
+> Formule:
+> 
+> ```math
+> \begin{gather}
+> GBP = Ojačanje * PasovnaSirina(UnityGain) \\
+> PasovnaSirina[Hz] = \frac{GBP}{Ojačanje} \\
+> \end{gather}
+> ```
+
+> Da izračunamo vstavimo v log podano številko:
+> ```math
+> \begin{gather}
+> A[dB] = 20log(\frac{U_{izh}}{U_{vh}}) = 40dB
 > \end{gather}
 > ```
 
