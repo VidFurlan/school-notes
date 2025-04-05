@@ -70,7 +70,7 @@
 > ```
 > 3. Ojačanje A je neskončno:
 > ```math
-> V \sim \infty
+> A \sim \infty
 > ```
 
 ---
