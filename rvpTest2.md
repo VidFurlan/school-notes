@@ -161,7 +161,6 @@
 
 ---
 
-
 > [!NOTE]
 > 12. Imamo operacijski ojačevalec z negativno povratno zanko, ki določa ojačenje v vrednosti
 > A=100. Kakšna bo pasovna širina tega ojačevalca, če uporabimo podatke iz spodnje krivulje.
@@ -184,6 +183,90 @@
 > A[dB] = 20log(\frac{U_{izh}}{U_{vh}}) = 40dB
 > \end{gather}
 > ```
+
+---
+
+> [!NOTE]
+> 13. Nariši shemo mostičnega vezja H in razloži za kaj ga uporabljamo.
+
+> Shema:
+> 
+> ![](https://github.com/user-attachments/assets/e482ce40-77fa-487d-a553-3e8c9afa1d5e)
+>
+> Uporablja se za kontrolo DC motorjev. Motor lahko:
+> - vrtimo levo
+> - vrtimo desno
+> - ustavimo (s tem da sklenemo vzporedni stikali)
+
+---
+
+> [!NOTE]
+> 14. Razloži delovanje servo motorja.
+
+> (Stvar je tečna za razlagat ampak nekej v tem smislu)
+> Motor sestavljajo potenciometer, DC motor in kontrolno vezje. Potencjometer lahko določi
+> trenutno rotacijo motorja, to sporoči kotrolnemu vezju, to pa lahko nato DC motor zavrti,
+> da izhod servo motorja dobi željeno rotacijo.
+> ![image](https://github.com/user-attachments/assets/db42bc6a-854f-4c32-abf2-cba5d8e6465b)
+
+---
+
+> [!NOTE]
+> 15. S kakšnim signalom krmilimo servo motor?
+
+> Servo motor krimilimo s PWM signalom s periodo 20ms (50Hz).
+
+---
+
+> [!NOTE]
+> 16. Nariši vezavo 2 polnega koračnega motorja in mostičnega vezja H.
+
+> ![](https://github.com/user-attachments/assets/6be265d3-caf9-447a-a845-67ee2b540f0e)
+
+---
+
+> [!NOTE]
+> 17. Razloži fizikalni princip delovanja LCD prikazovalnika.
+
+> Ekran je osvetljen z neko svetlobo (od odzadaj ali spredaj). Ta svetloba gre najprej
+> čez en sloj vertikano polariziranega stekla, ki prepušča le pravilno obrnjeno polarizirano svetlobo.
+> Na tej točki ostane le vertikalno polarizirana svetloba. Ta gre nato čez LC (Liquid Crystal) elektrodo.
+> Če je ta brez napetosti bo zaradi stanja kristalov povzročila 90° zasuka, če pa je napetost prisotna,
+> polarizacija svetloba ni spremenjena. Temu sledi še sloj horizontalno polariziranega stekla, ki bo prepuščalo
+> le svetlobo, katere polarizacija je bila obrnjena za  90°.
+
+---
+
+> [!NOTE]
+> 18. Razloži sinhronizacijo asinhronega serijskega protokola UART.
+
+> 
+
+---
+
+> [!NOTE]
+> 19. Nariši povezavo mikrokrmilnika z 3 perifernimi enotami preko SPI vodila in razloži pomen
+> posameznih SPI signalov.
+
+> ![](https://github.com/user-attachments/assets/8062fe79-e182-4c4b-bc19-d3e1385ad7e1)
+> - SCLK (Serial Clock) - Clock signal od master naprave
+> - MOSI (Master Out Slave In) - Serijski podatki od master naprave za slave naprave
+> - MISO (Master In Slave Out) - Serijski podatki od slave naprave za master naprave
+> - SS (Slave Select) - Uporabljen da izberemo slave device za trenutno povezavo
+> 
+> __*Zna bit da vpračanje sprasuje po čem drugem zato si poglej [Moodle](https://moodle2.vegova.si/mod/resource/view.php?id=27720)*__
+
+---
+
+> [!NOTE]
+> 20. Nariši povezavo mikrokrmilnika z 3 perifernimi enotami preko I2C vodila in razloži pomen
+posameznih I2C signalov.
+
+> ![](https://github.com/user-attachments/assets/6f17fac4-a7c7-4d1b-b70d-4314393068bd)
+> - SDA - Podatkovna linija
+> - SCL - Serijska ura
+> 
+> __*Zna bit da vpračanje sprasuje po čem drugem zato si poglej [Moodle](https://moodle2.vegova.si/mod/resource/view.php?id=27781)*__
 
 ---
 
