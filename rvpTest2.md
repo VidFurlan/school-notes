@@ -180,7 +180,7 @@
 > Da izračunamo vstavimo v log podano številko:
 > ```math
 > \begin{gather}
-> PasovnaSirina = \frac{10^6}{1^2} = 10^4Hz
+> PasovnaSirina = \frac{10^6}{10^2} = 10^4Hz
 > \end{gather}
 > ```
 
