@@ -180,7 +180,7 @@
 > Da izračunamo vstavimo v log podano številko:
 > ```math
 > \begin{gather}
-> A[dB] = 20log(\frac{U_{izh}}{U_{vh}}) = 40dB
+> PasovnaSirina = \frac{10^6}{1^2} = 10^4Hz
 > \end{gather}
 > ```
 
