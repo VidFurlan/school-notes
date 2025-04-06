@@ -177,7 +177,7 @@
 > \end{gather}
 > ```
 
-> Da izračunamo vstavimo v log podano številko:
+> Da izračunamo:
 > ```math
 > \begin{gather}
 > PasovnaSirina = \frac{10^6}{10^2} = 10^4Hz
