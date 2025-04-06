@@ -7,7 +7,7 @@
 > Na sliki iz zvezka je narisan en upor prevec
 
 > DAC pretvarja digitalne signale v analogne.
-> Ta ima 4 upore priklopljene na vhode. Vhod A ima najmanjši vpliv na izhod,
+> Ta ima 4 upore priklopljene na izhode mikrokrmilnika. Vhod A ima najmanjši vpliv na izhod,
 > vhod D pa ima največji vpliv (zaradi števila uporov).
 > 4 bitni DAC lahko predstavlja le 2<sup>4</sup> vrednosti saj ima le 4 vhode.
 > 
