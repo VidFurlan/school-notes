@@ -240,7 +240,9 @@
 > [!NOTE]
 > 18. Razloži sinhronizacijo asinhronega serijskega protokola UART.
 
-> 
+> UART je asinhrona komunikacija kar pomeni, da povezani napravi nimate skupnega urnega signala.
+> Najprej je med napravama neka mirovno stanje. Ko zaznamo start bit, prejemnik začne sprejemati podatke.
+> Te sprejema do stop bita. *(99% prepričan: Sinhronizacija se ponovi za vsak byte)*
 
 ---
 
