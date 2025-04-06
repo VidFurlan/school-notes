@@ -146,7 +146,7 @@
 > 10. Kdaj je smiselno uporabiti operacijski ojačevalnik v t.i. »buffer« načinu (ojačanje = 1)?
 
 > *Za buffer način velja V<sub>in</sub> =  V<sub>out</sub>. Tako vezje nima ojačanja, posledično pa velja,
-> da je vhodni tok zanemarljiv, impedenca pa je zelo majhna.* To vezavo uporabimo npr. ko imamo senzor,
+> da je vhodni tok zanemarljiv, izhodna impedenca je zelo majhna, vhodna pa visoka.* To vezavo uporabimo npr. ko imamo senzor,
 > ki ne zagotavlja dovolj izhodnega toka. Z ojačevalnikom v tej situaciji reproduciramo vhodno napetost
 > hkrati pa zagotavljanmo dovolj toka.
 
